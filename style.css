@@ -1,0 +1,37 @@
+/*
+color palette:
+	white: #FFF9F1
+	pink: #FFC2B2
+	blue: #7ACADA
+	green: #b4c14f
+*/
+
+body, html {
+	box-sizing: border-box;
+	background-color: #FFC2B2;
+	color: #FFF9F1;
+	padding: 10px;
+	margin: 10px;
+	font-size: 3vw;
+}
+
+h1{
+	font-size: 16vw;
+}
+
+:nth-child(n + 3){
+	color: #7ACADA;
+}
+
+p + p{
+	background-color: #FFF9F1;
+}
+
+#containerTwo{
+
+}
+
+#containerTwo p{
+	background-color: #b4c14f;
+	color: #FFF9F1;
+}
